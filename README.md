@@ -34,7 +34,7 @@ The first picture is an unfiltered dataset.
 
 <img width="1438" alt="unfiltered" src="https://user-images.githubusercontent.com/87828174/141668542-e62da5b4-bc5b-45fd-809e-347ceea5cf4f.png">
 
-As an example one can put the first filterin by typing a specific date in the date input field where it says _Enter Date_ as shown in the following image:
+As an example one can put the first filter in by typing a specific date in the date input field where it says _Enter Date_ as shown in the following image:
 
 <img width="1440" alt="filterone" src="https://user-images.githubusercontent.com/87828174/141668597-dd3c4e80-3603-49f6-85f1-ff5c0cbb461f.png">
 
@@ -60,10 +60,15 @@ Note: Put the data in the filtering fields in the same format as mentioned there
 4. Country: us
 5. Shape: circle
 
-In addition to the above instructions, to clear the table or reset it, one must click the UFO sightings button in the top left as shown below:
+In addition to the above instructions, to clear the table or reset it, one must click the UFO sightings button in the top left of the webpage as shown below:
 
 <img width="161" alt="ClearFilter" src="https://user-images.githubusercontent.com/87828174/141668842-6b871590-fd7e-44fb-a511-1d8559c7a404.png">
 
 ## Summary
 ### Drawback
+A drawback of this webpage is lack of data. The fixed dataset from which the website extracts information is very small and filters are not that effective as the entire data set is only for January of 2010. No new information on sightings or information of different months or years are available or can be extracted as the original dataset in data.js is not dynamic like the webpage.
 ### Recommendations
+1. The written text and image in the header should not be static and should be scraped and stored from websites so that everytime the webpage is run, the page is updated with the most recent images and/or text in the description. 
+2. The dataset should be linked to a constantly updating database so that there are more records available and records are also able to update. A larger dataset would allow availability of more records and information for people.
+3. Using bootstrap and stylesheets, the webpage can be made more attractive and interesting.
+4. Lastly, there should be a link in every record to a more detailed page with, if available, images, interviews and articles to give more resources for anyone interested in the UFO events. 
