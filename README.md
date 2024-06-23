@@ -1,5 +1,5 @@
 # UFOs
-Module 11 JS & HTML: UFO Sightings with JavaScript
+Module 11: JS & HTML - UFO Sightings with JavaScript
 ## Overview of Project
 After making a dynamic webpage with a table of data on UFO sightings that can be filtered by date of the event, we were tasked to create additional filters for this challenge:
 
